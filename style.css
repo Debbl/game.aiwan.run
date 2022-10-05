@@ -1,4 +1,23 @@
+.header {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.footer .dec {
+  color: #ccc;
+}
+.footer .dec a {
+  color: #ccc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .content {
   width: 70%;
+  padding-top: 3%;
   margin: 0 auto;
 }

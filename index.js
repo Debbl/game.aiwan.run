@@ -1,4 +1,6 @@
-const md = window.markdownit();
+const md = window.markdownit({
+  html: true,
+});
 fetch(
   "https://raw.githubusercontent.com/Debbl/react-minesweeper/main/README.md"
 )

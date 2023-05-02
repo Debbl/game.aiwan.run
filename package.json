@@ -1,0 +1,16 @@
+{
+  "name": "game.aiwan.run",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx build.ts"
+  },
+  "keywords": [],
+  "author": "Debbl <me@aiwan.run> (https://github.com/Debbl)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "tsx": "^3.12.7"
+  }
+}

@@ -2,7 +2,7 @@ const md = window.markdownit({
   html: true,
 });
 
-const pages = ["react-minesweeper", "solidjs-tic-tac-toe", "game-of-life"];
+const pages = ["react-minesweeper", "solidjs-tic-tac-toe", "game-of-life", "bubble-wrap"];
 
 pages.forEach((p) => {
   fetch(`https://raw.githubusercontent.com/Debbl/${p}/main/README.md` )
